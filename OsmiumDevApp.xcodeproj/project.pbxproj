@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75815B19278AF204003848C5 /* OsmiumDevAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75815B18278AF204003848C5 /* OsmiumDevAppApp.swift */; };
+		75815B1B278AF204003848C5 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75815B1A278AF204003848C5 /* SceneView.swift */; };
+		75815B1D278AF207003848C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75815B1C278AF207003848C5 /* Assets.xcassets */; };
+		75815B20278AF207003848C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75815B1F278AF207003848C5 /* Preview Assets.xcassets */; };
+		75815B2A278AF7B5003848C5 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75815B29278AF7B5003848C5 /* AppModel.swift */; };
+		75815B32278B07B1003848C5 /* Osmium in Frameworks */ = {isa = PBXBuildFile; productRef = 75815B31278B07B1003848C5 /* Osmium */; };
+		75B632D927F64E8C00E3AF9E /* Mechanical_Owl.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 75B632D827F64E8C00E3AF9E /* Mechanical_Owl.usdz */; };
+		75B632E527F8969400E3AF9E /* Osmium in Frameworks */ = {isa = PBXBuildFile; productRef = 75B632E427F8969400E3AF9E /* Osmium */; };
+		75FDDD4F2790B354004EE3F8 /* Dummy.metal in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDD4E2790B354004EE3F8 /* Dummy.metal */; };
+		75FDDD522791DFE3004EE3F8 /* TestingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDD512791DFE3004EE3F8 /* TestingUtils.swift */; };
+		75FDDD54279356AF004EE3F8 /* SceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDD53279356AF004EE3F8 /* SceneViewModel.swift */; };
+		75FDDD5B27975FDB004EE3F8 /* SceneNodesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDD5A27975FDB004EE3F8 /* SceneNodesLoader.swift */; };
+		A7ABD2218CDFACC8FD3656F4 /* CIImage+MTLTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ABD5CC1194C06F85335C79 /* CIImage+MTLTexture.swift */; };
+		A7ABD26F809B654611882DB3 /* SkyboxGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ABD3562D71786E10DC5C18 /* SkyboxGenerator.swift */; };
+		A7ABD338328A7929ABF58A31 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ABD3765E8B511635AF6302 /* SceneController.swift */; };
+		A7ABD4E9A32CBF6C8820E2CA /* CIImage+DemoMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ABD4FC8F3E272D4A775E28 /* CIImage+DemoMaterials.swift */; };
+		A7ABD57106CDB34A39159A6E /* License.md in Sources */ = {isa = PBXBuildFile; fileRef = A7ABD3BAC986B25E811E42D6 /* License.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75815B15278AF204003848C5 /* OsmiumDevApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsmiumDevApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75815B18278AF204003848C5 /* OsmiumDevAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsmiumDevAppApp.swift; sourceTree = "<group>"; };
+		75815B1A278AF204003848C5 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		75815B1C278AF207003848C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75815B1F278AF207003848C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75815B21278AF207003848C5 /* OsmiumDevApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OsmiumDevApp.entitlements; sourceTree = "<group>"; };
+		75815B29278AF7B5003848C5 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppModel.swift; path = OsmiumDevApp/AppModel.swift; sourceTree = SOURCE_ROOT; };
+		75B632D827F64E8C00E3AF9E /* Mechanical_Owl.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mechanical_Owl.usdz; sourceTree = "<group>"; };
+		75FDDD4E2790B354004EE3F8 /* Dummy.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Dummy.metal; sourceTree = "<group>"; };
+		75FDDD512791DFE3004EE3F8 /* TestingUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingUtils.swift; sourceTree = "<group>"; };
+		75FDDD53279356AF004EE3F8 /* SceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewModel.swift; sourceTree = "<group>"; };
+		75FDDD5A27975FDB004EE3F8 /* SceneNodesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneNodesLoader.swift; sourceTree = "<group>"; };
+		A7ABD3562D71786E10DC5C18 /* SkyboxGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyboxGenerator.swift; sourceTree = "<group>"; };
+		A7ABD3765E8B511635AF6302 /* SceneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneController.swift; sourceTree = "<group>"; };
+		A7ABD3BAC986B25E811E42D6 /* License.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
+		A7ABD4FC8F3E272D4A775E28 /* CIImage+DemoMaterials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIImage+DemoMaterials.swift"; sourceTree = "<group>"; };
+		A7ABD5CC1194C06F85335C79 /* CIImage+MTLTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIImage+MTLTexture.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75815B12278AF204003848C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B632E527F8969400E3AF9E /* Osmium in Frameworks */,
+				75815B32278B07B1003848C5 /* Osmium in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75815B0C278AF204003848C5 = {
+			isa = PBXGroup;
+			children = (
+				75815B17278AF204003848C5 /* OsmiumDevApp */,
+				75815B16278AF204003848C5 /* Products */,
+				75815B2C278B06BA003848C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75815B16278AF204003848C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75815B15278AF204003848C5 /* OsmiumDevApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75815B17278AF204003848C5 /* OsmiumDevApp */ = {
+			isa = PBXGroup;
+			children = (
+				75FDDD5927975B41004EE3F8 /* Classes */,
+				75815B18278AF204003848C5 /* OsmiumDevAppApp.swift */,
+				75815B29278AF7B5003848C5 /* AppModel.swift */,
+				75815B1C278AF207003848C5 /* Assets.xcassets */,
+				75815B21278AF207003848C5 /* OsmiumDevApp.entitlements */,
+				75815B1E278AF207003848C5 /* Preview Content */,
+			);
+			path = OsmiumDevApp;
+			sourceTree = "<group>";
+		};
+		75815B1E278AF207003848C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75815B1F278AF207003848C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75815B27278AF75A003848C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75815B28278AF76D003848C5 /* SceneView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75815B28278AF76D003848C5 /* SceneView */ = {
+			isa = PBXGroup;
+			children = (
+				A7ABD3765E8B511635AF6302 /* SceneController.swift */,
+				75815B1A278AF204003848C5 /* SceneView.swift */,
+				75FDDD53279356AF004EE3F8 /* SceneViewModel.swift */,
+				75FDDD5A27975FDB004EE3F8 /* SceneNodesLoader.swift */,
+			);
+			path = SceneView;
+			sourceTree = "<group>";
+		};
+		75815B2C278B06BA003848C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75815B33278B1902003848C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75B632D827F64E8C00E3AF9E /* Mechanical_Owl.usdz */,
+				A7ABD3BAC986B25E811E42D6 /* License.md */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75FDDD4D2790B30C004EE3F8 /* DummyFiles */ = {
+			isa = PBXGroup;
+			children = (
+				75FDDD4E2790B354004EE3F8 /* Dummy.metal */,
+			);
+			path = DummyFiles;
+			sourceTree = "<group>";
+		};
+		75FDDD502791DFD0004EE3F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75FDDD512791DFE3004EE3F8 /* TestingUtils.swift */,
+				A7ABD2C38C885F7C32DD6681 /* Extensions */,
+				A7ABD3562D71786E10DC5C18 /* SkyboxGenerator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75FDDD5927975B41004EE3F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75FDDD502791DFD0004EE3F8 /* Utils */,
+				75FDDD4D2790B30C004EE3F8 /* DummyFiles */,
+				75815B33278B1902003848C5 /* Models */,
+				75815B27278AF75A003848C5 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7ABD2C38C885F7C32DD6681 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7ABD5CC1194C06F85335C79 /* CIImage+MTLTexture.swift */,
+				A7ABD4FC8F3E272D4A775E28 /* CIImage+DemoMaterials.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75815B14278AF204003848C5 /* OsmiumDevApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75815B24278AF207003848C5 /* Build configuration list for PBXNativeTarget "OsmiumDevApp" */;
+			buildPhases = (
+				75815B11278AF204003848C5 /* Sources */,
+				75815B12278AF204003848C5 /* Frameworks */,
+				75815B13278AF204003848C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsmiumDevApp;
+			packageProductDependencies = (
+				75815B31278B07B1003848C5 /* Osmium */,
+				75B632E427F8969400E3AF9E /* Osmium */,
+			);
+			productName = OsmiumDevApp;
+			productReference = 75815B15278AF204003848C5 /* OsmiumDevApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75815B0D278AF204003848C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					75815B14278AF204003848C5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 75815B10278AF204003848C5 /* Build configuration list for PBXProject "OsmiumDevApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75815B0C278AF204003848C5;
+			packageReferences = (
+				75B632E327F8969400E3AF9E /* XCRemoteSwiftPackageReference "osmium" */,
+			);
+			productRefGroup = 75815B16278AF204003848C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75815B14278AF204003848C5 /* OsmiumDevApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75815B13278AF204003848C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75815B20278AF207003848C5 /* Preview Assets.xcassets in Resources */,
+				75B632D927F64E8C00E3AF9E /* Mechanical_Owl.usdz in Resources */,
+				75815B1D278AF207003848C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75815B11278AF204003848C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FDDD4F2790B354004EE3F8 /* Dummy.metal in Sources */,
+				75FDDD522791DFE3004EE3F8 /* TestingUtils.swift in Sources */,
+				75815B1B278AF204003848C5 /* SceneView.swift in Sources */,
+				75FDDD54279356AF004EE3F8 /* SceneViewModel.swift in Sources */,
+				75815B2A278AF7B5003848C5 /* AppModel.swift in Sources */,
+				75815B19278AF204003848C5 /* OsmiumDevAppApp.swift in Sources */,
+				A7ABD338328A7929ABF58A31 /* SceneController.swift in Sources */,
+				75FDDD5B27975FDB004EE3F8 /* SceneNodesLoader.swift in Sources */,
+				A7ABD2218CDFACC8FD3656F4 /* CIImage+MTLTexture.swift in Sources */,
+				A7ABD4E9A32CBF6C8820E2CA /* CIImage+DemoMaterials.swift in Sources */,
+				A7ABD26F809B654611882DB3 /* SkyboxGenerator.swift in Sources */,
+				A7ABD57106CDB34A39159A6E /* License.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75815B22278AF207003848C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75815B23278AF207003848C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75815B25278AF207003848C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OsmiumDevApp/OsmiumDevApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OsmiumDevApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ars.OsmiumDevApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75815B26278AF207003848C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OsmiumDevApp/OsmiumDevApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OsmiumDevApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ars.OsmiumDevApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75815B10278AF204003848C5 /* Build configuration list for PBXProject "OsmiumDevApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75815B22278AF207003848C5 /* Debug */,
+				75815B23278AF207003848C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75815B24278AF207003848C5 /* Build configuration list for PBXNativeTarget "OsmiumDevApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75815B25278AF207003848C5 /* Debug */,
+				75815B26278AF207003848C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75B632E327F8969400E3AF9E /* XCRemoteSwiftPackageReference "osmium" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Arsynth/osmium.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75815B31278B07B1003848C5 /* Osmium */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Osmium;
+		};
+		75B632E427F8969400E3AF9E /* Osmium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75B632E327F8969400E3AF9E /* XCRemoteSwiftPackageReference "osmium" */;
+			productName = Osmium;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 75815B0D278AF204003848C5 /* Project object */;
+}
